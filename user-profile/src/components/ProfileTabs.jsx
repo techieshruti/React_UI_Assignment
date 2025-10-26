@@ -12,15 +12,15 @@ const ProfileTabs = () => {
   return (
     <div className="bg-[#3d4045] p-4 rounded-2xl shadow-lg max-w-[600px] w-full">
       {/* Tabs */}
-      <div className="flex bg-[#161617] p-4 rounded-3xl gap-6 mb-4 border-b border-gray-700">
+      <div className="flex bg-[#161617] rounded-3xl gap-6 mb-4 border-b border-gray-700">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`pb-1 text-sm font-medium ${
+            className={`pb-1 text-m font-medium ${
               activeTab === tab.id
-                ? "border-b-2 border-white text-white"
-                : "text-gray-400 hover:text-white"
+                ? "bg-[#272a30] rounded-3xl text-center p-4 border-white text-white"
+                : "text-gray-400 hover:text-white "
             }`}
           >
             {tab.label}
@@ -29,7 +29,7 @@ const ProfileTabs = () => {
       </div>
 
       {/* Content */}
-      <div className="text-gray-400 text-m leading-relaxed">
+      <div className="text-gray-400 text-m py-0 px-[15px] leading-relaxed">
         {activeTab === "about" && (
           <>
             <p>
