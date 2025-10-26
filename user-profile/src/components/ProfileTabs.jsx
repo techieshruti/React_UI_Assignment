@@ -10,9 +10,9 @@ const ProfileTabs = () => {
   ];
 
   return (
-    <div className="bg-[#272c36] p-5 rounded-2xl shadow-lg max-w-[600px] w-full">
+    <div className="bg-[#3d4045] p-4 rounded-2xl shadow-lg max-w-[600px] w-full">
       {/* Tabs */}
-      <div className="flex gap-6 mb-4 border-b border-gray-700 pb-2">
+      <div className="flex bg-[#161617] p-4 rounded-3xl gap-6 mb-4 border-b border-gray-700">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -29,7 +29,7 @@ const ProfileTabs = () => {
       </div>
 
       {/* Content */}
-      <div className="text-gray-300 text-sm leading-relaxed">
+      <div className="text-gray-400 text-m leading-relaxed">
         {activeTab === "about" && (
           <>
             <p>
