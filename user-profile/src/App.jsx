@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import ProfileTabs from "./components/ProfileTabs";
+import GalleryWidget from "./components/GalleryWidget";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-   <div className='container'>
-    <></>
-    <div className='profile'>
-      <div className='upper'></div>
-      <div className='lower'></div>
+    <div className="flex justify-end min-h-screen items-center px-10 bg-[#0f1117]">
+      <div className="flex flex-col">
+        <ProfileTabs />
+        <GalleryWidget />
+      </div>
     </div>
-   </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
