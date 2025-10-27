@@ -39,7 +39,7 @@ const ProfileTabs = () => {
             <p className="mt-2">
               I was born and raised in Albany, NY & have been living in Santa
               Carla for the past 10 years with my wife Tiffany and my 4-year-old
-              twin daughters — Emma and Ella. Both of them are just starting
+              twin daughters - Emma and Ella. Both of them are just starting
               school, so my calendar is usually blocked between 9–10 AM.
             </p>
           </>
@@ -53,9 +53,9 @@ During this time, I’ve successfully closed deals with over 120 clients, consis
         )}
         {activeTab === "recommended" && (
           <>
-          <p>Sarah Mitchell, my Regional Manager at Salesforce, once mentioned that “Dave has an incredible ability to connect with clients on a personal level — he listens, understands, and always delivers value beyond expectations.”</p>
+          <p>Sarah Mitchell, my Regional Manager at Salesforce, once mentioned that “Dave has an incredible ability to connect with clients on a personal level - he listens, understands, and always delivers value beyond expectations.”</p>
           <p className="mt-2">
-Jason Reed, one of my long-term clients from CloudSync Solutions, shared that “Dave doesn’t just sell a product — he partners with you to find the right solution. His honesty and follow-up support made our transition to Salesforce seamless.”</p>
+Jason Reed, one of my long-term clients from CloudSync Solutions, shared that “Dave doesn’t just sell a product - he partners with you to find the right solution. His honesty and follow-up support made our transition to Salesforce seamless.”</p>
 <p className="mt-2">
 Maria Lopez, a fellow team member, described me as “a dependable colleague who’s always willing to help others close deals and share insights that make the entire team stronger.”</p>
 </>
