@@ -28,10 +28,10 @@ const GalleryWidget = () => {
       <div className="grid grid-cols-3 gap-3">
         {images.map((src, idx) => (
           <div key={idx} className="overflow-hidden rounded-lg">
-            <img
-              src={src}
+            <img 
+              src={"https://image.lexica.art/full_webp/6d93facf-329c-44a1-8e96-40ac315227ce"}
               alt="Gallery"
-              className="w-full h-24 object-cover hover:scale-105 transition-transform duration-300"
+              className="w-full h-30 object-cover hover:scale-105 transition-transform duration-300 bg-slate-200"
             />
           </div>
         ))}
