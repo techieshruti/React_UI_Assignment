@@ -6,7 +6,6 @@ This project displays a user’s personal information, professional experiences,
 ## 🚀 Features
 
 - 🧭 Tabbed Navigation — “About Me”, “Experiences”, and “Recommended” sections with smooth transitions.
-
 - 🎨 Tailwind CSS Styling — Clean, modern UI with rounded cards, shadows, and dark theme.
 - 💡 Active Tab Highlight — Animated tab indicator and shadow effect for the active section.
 - 📱 Fully Responsive — Works across desktop and mobile screens.
