@@ -13,7 +13,7 @@ const GalleryWidget = () => {
   };
 
   return (
-    <div className="bg-[#1b1d25] p-5 rounded-2xl shadow-lg max-w-[600px] w-full mt-6">
+    <div className="bg-[#3d4045] p-5 rounded-2xl shadow-lg max-w-[600px] w-full mt-6">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold">Gallery</h3>
         <button

@@ -12,14 +12,14 @@ const ProfileTabs = () => {
   return (
     <div className="bg-[#3d4045] p-4 rounded-2xl shadow-lg max-w-[600px] w-full">
       {/* Tabs */}
-      <div className="flex bg-[#161617] rounded-3xl gap-6 mb-4 border-b border-gray-700">
+      <div className="flex bg-[#161617] rounded-3xl gap-6 mb-4 border-b border-gray-700 shadow-md">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`pb-1 text-m font-medium ${
+            className={`px-6 py-3 text-m font-medium ${
               activeTab === tab.id
-                ? "bg-[#272a30] rounded-3xl text-center p-4 border-white text-white"
+                ? "bg-[#272a30] items-center rounded-3xl p-4 border-white text-white shadow-lg shadow-gray-800"
                 : "text-gray-400 hover:text-white "
             }`}
           >
@@ -45,10 +45,18 @@ const ProfileTabs = () => {
           </>
         )}
         {activeTab === "experiences" && (
-          <p>I've worked on multiple enterprise-level CRM solutions...</p>
+          <><p>I have over two years of hands-on experience as a Frontend Developer, specializing in building responsive and user-friendly web applications using React.js, JavaScript, and Tailwind CSS.</p><p className="mt-2">
+Currently, I’m working at TechNova Solutions, where I collaborate with designers and backend developers to create modern interfaces that enhance user experience and performance. My key focus areas include component reusability, UI consistency, and optimizing page load speeds.</p></>
         )}
         {activeTab === "recommended" && (
-          <p>Colleagues often recommend me for my team collaboration...</p>
+          <>
+          <p>I’ve had the privilege of working with talented professionals who’ve shared valuable feedback about my work ethic and technical skills.</p>
+          <p className="mt-2">
+Aditi Sharma, a Product Designer at PixelWorks, describes me as a developer who “pays great attention to detail and always ensures that design and functionality align perfectly.”</p>
+<p className="mt-2">
+Arjun Mehta, Software Engineer at DevCraft, appreciated my ability to “quickly adapt to new tools and consistently write clean, maintainable React code.”
+Sneha Patil, Team Lead at NovaTech, highlighted my “commitment to quality and timely delivery,” emphasizing how I consistently meet project expectations with precision and creativity.</p>
+</>
         )}
       </div>
     </div>
