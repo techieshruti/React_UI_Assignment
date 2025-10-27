@@ -15,7 +15,7 @@ const GalleryWidget = () => {
   return (
     <div className="bg-[#3d4045] p-5 rounded-2xl shadow-lg max-w-[600px] w-full mt-6">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-lg font-semibold">Gallery</h3>
+        <h3 className="text-lg text-white font-semibold bg-gray-800 px-5 py-2 rounded-3xl">Gallery</h3>
         <button
           onClick={addImage}
           className="bg-gray-800 hover:bg-gray-700 px-3 py-1 rounded-lg text-sm text-gray-200 flex items-center gap-1"
