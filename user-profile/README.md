@@ -1,16 +1,51 @@
-# React + Vite
+# 🧑‍💼 User Profile — React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive User Profile Interface built using React and Tailwind CSS.
+This project displays a user’s personal information, professional experiences, and recommendations inside a sleek, tabbed profile widget — inspired by Salesforce-style UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧭 Tabbed Navigation — “About Me”, “Experiences”, and “Recommended” sections with smooth transitions.
 
-## React Compiler
+- 🎨 Tailwind CSS Styling — Clean, modern UI with rounded cards, shadows, and dark theme.
+- 💡 Active Tab Highlight — Animated tab indicator and shadow effect for the active section.
+- 📱 Fully Responsive — Works across desktop and mobile screens.
+- ⚡ Vite + React Setup — Fast development environment with hot reload.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- Frontend: React.js
+- Styling: Tailwind CSS
+- Build Tool: Vite
+- Language: JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Folder Structure
+```
+user-profile/
+├── src/
+│   ├── components/
+│   │   └── ProfileTabs.jsx      # Tabbed Profile component
+|   |   └── GalleryWidgets.jsx   # gallery Image component
+│   ├── App.jsx                  # Main component
+│   ├── index.css                # Tailwind CSS imports
+│   └── main.jsx                 # React entry point
+├── public/                      # Static assets
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
+
+## 🧑‍💻 Component Overview
+
+### ProfileTabs.jsx
+- Displays three tabs:
+- About Me: Personal introduction
+- Experiences: Work background and achievements
+- Recommended: Feedback and testimonials
+- Each tab dynamically renders content with active-state styling.
+
+### GalleryWidget.jsx
+- Displays a button to enter image URL
+- Entered image will display in pre-defined grid
+- All images will dynamically render
