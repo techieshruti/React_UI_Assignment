@@ -40,7 +40,7 @@ const ProfileTabs = () => {
               I was born and raised in Albany, NY & have been living in Santa
               Carla for the past 10 years with my wife Tiffany and my 4-year-old
               twin daughters - Emma and Ella. Both of them are just starting
-              school, so my  is usually blocked between 9–10 AM.
+              school, so my calendar is usually blocked between 9–10 AM.
             </p>
           </>
         )}
